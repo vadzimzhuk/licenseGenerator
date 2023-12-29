@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		26DBC8C12B3F55E100CA2E98 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DBC8C02B3F55E100CA2E98 /* main.swift */; };
+		26DBC8CC2B3F585400CA2E98 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DBC8C82B3F585400CA2E98 /* StringExtensions.swift */; };
+		26DBC8CD2B3F585400CA2E98 /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DBC8C92B3F585400CA2E98 /* CollectionExtensions.swift */; };
+		26DBC8CE2B3F585400CA2E98 /* Xcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DBC8CB2B3F585400CA2E98 /* Xcode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		26DBC8BD2B3F55E100CA2E98 /* licenseGenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = licenseGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
 		26DBC8C02B3F55E100CA2E98 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		26DBC8C82B3F585400CA2E98 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		26DBC8C92B3F585400CA2E98 /* CollectionExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionExtensions.swift; sourceTree = "<group>"; };
+		26DBC8CB2B3F585400CA2E98 /* Xcode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Xcode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,28 @@
 		26DBC8BF2B3F55E100CA2E98 /* licenseGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				26DBC8C72B3F585400CA2E98 /* Extensions */,
+				26DBC8CA2B3F585400CA2E98 /* Tools */,
 				26DBC8C02B3F55E100CA2E98 /* main.swift */,
 			);
 			path = licenseGenerator;
+			sourceTree = "<group>";
+		};
+		26DBC8C72B3F585400CA2E98 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				26DBC8C82B3F585400CA2E98 /* StringExtensions.swift */,
+				26DBC8C92B3F585400CA2E98 /* CollectionExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		26DBC8CA2B3F585400CA2E98 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				26DBC8CB2B3F585400CA2E98 /* Xcode.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26DBC8CC2B3F585400CA2E98 /* StringExtensions.swift in Sources */,
+				26DBC8CE2B3F585400CA2E98 /* Xcode.swift in Sources */,
+				26DBC8CD2B3F585400CA2E98 /* CollectionExtensions.swift in Sources */,
 				26DBC8C12B3F55E100CA2E98 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
