@@ -85,7 +85,7 @@ let data = try PropertyListSerialization.data(fromPropertyList: plistEntries, fo
 var isdirectory : ObjCBool = true
 
 switch (fileManager.fileExists(atPath: outputPath.expandingTildeInPath, isDirectory: &isdirectory), isdirectory.boolValue) {
-case (false, false):
+case (false, _):
     print("No such file or directory \(outputPath.expandingTildeInPath)")
     exit(0)
 case (true, false):
@@ -96,7 +96,5 @@ case (true, true):
     let newPath = outputPath.expandingTildeInPath.appendingPathComponent("Credits.plist")
     fileManager.createFile(atPath: newPath, contents: data)
     print("Licenses have been saved to \(newPath)")
-case (false, true):
-    exit(0)
 }
 

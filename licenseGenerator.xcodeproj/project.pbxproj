@@ -26,7 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		26DBC8BD2B3F55E100CA2E98 /* licenseGenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = licenseGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DBC8BD2B3F55E100CA2E98 /* licgen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = licgen; sourceTree = BUILT_PRODUCTS_DIR; };
 		26DBC8C02B3F55E100CA2E98 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		26DBC8C82B3F585400CA2E98 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		26DBC8C92B3F585400CA2E98 /* CollectionExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionExtensions.swift; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		26DBC8BE2B3F55E100CA2E98 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				26DBC8BD2B3F55E100CA2E98 /* licenseGenerator */,
+				26DBC8BD2B3F55E100CA2E98 /* licgen */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,9 +90,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		26DBC8BC2B3F55E100CA2E98 /* licenseGenerator */ = {
+		26DBC8BC2B3F55E100CA2E98 /* licgen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26DBC8C42B3F55E100CA2E98 /* Build configuration list for PBXNativeTarget "licenseGenerator" */;
+			buildConfigurationList = 26DBC8C42B3F55E100CA2E98 /* Build configuration list for PBXNativeTarget "licgen" */;
 			buildPhases = (
 				26DBC8B92B3F55E100CA2E98 /* Sources */,
 				26DBC8BA2B3F55E100CA2E98 /* Frameworks */,
@@ -102,9 +102,9 @@
 			);
 			dependencies = (
 			);
-			name = licenseGenerator;
+			name = licgen;
 			productName = licenseGenerator;
-			productReference = 26DBC8BD2B3F55E100CA2E98 /* licenseGenerator */;
+			productReference = 26DBC8BD2B3F55E100CA2E98 /* licgen */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				26DBC8BC2B3F55E100CA2E98 /* licenseGenerator */,
+				26DBC8BC2B3F55E100CA2E98 /* licgen */,
 			);
 		};
 /* End PBXProject section */
@@ -307,7 +307,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26DBC8C42B3F55E100CA2E98 /* Build configuration list for PBXNativeTarget "licenseGenerator" */ = {
+		26DBC8C42B3F55E100CA2E98 /* Build configuration list for PBXNativeTarget "licgen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				26DBC8C52B3F55E100CA2E98 /* Debug */,
